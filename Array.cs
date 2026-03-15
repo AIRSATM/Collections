@@ -35,8 +35,8 @@ public class Task1
     foreach (int port1 in ports1) Console.Write(port1 + " ");
     Console.WriteLine("\n");
     Console.Write("Вводи число: ");
-    int num1 = int.Parse(Console.Readline());
-    if (Array.Exists(ports1, element => element == num1) Console.WriteLine("yes"); 
+    int num1 = int.Parse(Console.ReadLine());
+    if (Array.Exists(ports1, element => element == num1)) Console.WriteLine("yes"); 
     else Console.WriteLine("no");
   }
 }
